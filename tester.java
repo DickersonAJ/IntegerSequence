@@ -28,6 +28,17 @@ public class tester{
       System.out.print(as.next()+", ");
     }
 
+    System.out.println();
+
+    IntegerSequence rr = new Range(10,20);
+    IntegerSequence az = new ArraySequence(rr);
+
+    System.out.println("ArraySequence(seq):");
+    while(az.hasNext()){
+      System.out.print(az.next()+", ");
+    }
+    System.out.println();
+
   }
 
 }
