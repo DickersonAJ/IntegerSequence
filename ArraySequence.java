@@ -1,0 +1,9 @@
+public class ArraySequence implements IntegerSequence{
+  private int currentIndex;
+  private int []data;
+
+  public ArraySequence(int [] other){
+    
+  }
+
+}
