@@ -39,6 +39,16 @@ public class tester{
     }
     System.out.println();
 
+    while(rr.hasNext()){
+      System.out.print(rr.next());
+      if( rr.hasNext() ){
+         System.out.print( ", " );
+      }
+    }
+    System.out.println();
+
+    System.out.println(az.next());
+
   }
 
 }
